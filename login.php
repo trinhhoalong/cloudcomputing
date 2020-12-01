@@ -1,4 +1,5 @@
 <?php 
+   require_once("login.html");
 	$login = $_GET["login"];
 	$password = $_GET["password"];
 	if ($login == "admin" && $password == "123456") {
